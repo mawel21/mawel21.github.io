@@ -1,13 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-git_source(:github) {|supply| "https://github.com/YJPL/{supply}" }
-
-gem "jekyll"
+# This will help ensure the proper Jekyll version is running.
+gem "jekyll", github: "jekyll/jekyll"
 
 group :jekyll_plugins do
-  gem "jekyll-leaflet"
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
-  gem 'jekyll-archives'
 end
+

@@ -1,111 +1,74 @@
-# This will be the first part of the title tag for your site <title> site.name + page.title </title>
-title: Supply
-url: "https://supply.templates.supply" # the base hostname & protocol for your site, e.g. http://example.com, also used in jekyll-seo-tag
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: Web de Miguel
+
+# Below the site title
+tagline: Mi primera web con jekykill.
+
+# Site logo
+logo:
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: |
+  BlogBox is a bold theme for the Jekyll blogging platform. Available for purchase at ThemeForest.net.
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: https://blogbox.netlify.app
+
+# The subpath of your site, if you want to host your path on a subpath like on GitHub Pages. e.g. /blog
 baseurl:
-repo: https://github.com/YJPL/Supply/
-google_analytics_key:
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-tagline:
-description: Jekyll template for e-commerce with Gumroad integration
-author:
-  name: Supply
-  email:
-  twitter: TemplatesSupply # twitter username without the @ symbol
-  phone: ""
-social:
-  name: Templates Supply # replace this
-  links:
-    - https://github.com/YJPL/supply
-    - https://www.linkedin.com/company/templates-supply/
+sass:
+  sass_dir: _sass
 
-# Build settings
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Style Guide
+  url: /style-guide/
+- text: Archives
+  url: /tags/
+
+# Author information - author info at the bottom of the post
+author_name: "John Doe"
+author_bio: "My name is John Doe. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 6 years."
+author_url: "https://justgoodthemes.com"
+author_location: "Vilnius, Lithuania"
+author_image: authorimage.jpg
+
+# Footer ad banner
+banner_image: banner.jpg
+banner_url: https://justgoodthemes.com/
+
+# Footer newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username: "username"
+facebook_username: "username"
+github_username: "username"
+codepen_username: "username"
+dribbble_username: "username"
+medium_username: "@username"
+instagram_username: "username"
+pinterest_username: "username"
+linkedin_username: "username"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
 markdown: kramdown
-timezone: FR
-
-collections:
-  products:
-    _hide_content: false
-    output: true
-
-permalink: /:title/ # pretty
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "products"
-    values:
-      layout: "product"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "index.html"
-    values:
-      layout: "default"
-
-jekyll-archives:
-  enabled:
-    - categories
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-leaflet
-  - jekyll-feed
-  - jekyll-archives # not on Supply theme
-
-include:
-  - .htaccess
-  - _pages
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - README.md
-  - LICENCE
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Contact settings
-formcarry: https://formcarry.com/ # add you formcarry endpoint url (see https://formcarry.com/documentation/getting-started)
-
-# Social
-
-social_icons:
-  - Email
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
-feed:
-  collections:
-    products:
-      path: "/products.xml"
-
-# Jekyll Archives Settings https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled: 'all'
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/:name/'
-  category_archive:
-    type: liquid
+kramdown:
+    auto_ids: false
