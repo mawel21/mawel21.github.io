@@ -3,7 +3,7 @@ layout: post
 title:  "Lil baby y su tributo a Kobe"
 date:   2025-02-19
 featured_image: lilbaby.jpg
-tags: [Raper, Hiphop, Kobe]
+tags: [Rapero, Hiphop, Kobe]
 ---
 
 El rapero Lil Baby lanzó la canción "24" en 2020 como un tributo a Kobe Bryant tras su trágica muerte en un accidente de helicóptero. El título hace referencia al número que Kobe usó durante la segunda mitad de su carrera con Los Angeles Lakers, consolidándose como uno de los mayores ídolos de la historia del baloncesto.
@@ -12,7 +12,8 @@ El rapero Lil Baby lanzó la canción "24" en 2020 como un tributo a Kobe Bryant
 
 {% include image_full.html imageurl="/images/posts/lilbaby-24.jpg" title="24" caption="Lil Baby y Money Man en el videoclip de la cancion" %}
 
-En la canción, Lil Baby menciona la mentalidad de trabajo incansable de Kobe, su disciplina y su impacto en el deporte y la cultura en general. La letra transmite un mensaje de motivación y superación, valores que Bryant representaba y que inspiraron a generaciones enteras.[ [Letra completa](https://genius.com/Money-man-24-remix-lyrics) ]
+En la canción, Lil Baby menciona la mentalidad de trabajo incansable de Kobe, su disciplina y su impacto en el deporte y la cultura en general. La letra transmite un mensaje de motivación y superación, valores que Bryant representaba y que inspiraron a generaciones enteras.
+[ [Letra completa](https://genius.com/Money-man-24-remix-lyrics) ]
 
 El vínculo entre el hip-hop y la NBA se ha manifestado en numerosas ocasiones a través de homenajes como este. Artistas como Lil Wayne, J. Cole y Drake han hecho referencias a Kobe y otros jugadores en sus canciones, reflejando cómo el legado de las estrellas del baloncesto trasciende el deporte para convertirse en un fenómeno cultural. 
 
