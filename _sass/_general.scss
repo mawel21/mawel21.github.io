@@ -7,8 +7,8 @@ html {
 }
 
 body {
-    background-color: #30373d;
-    color: #606669;
+    background-color: #343d30;
+    color: #44533e;
     line-height: 1.66667;
 }
 
@@ -18,7 +18,7 @@ a {
     -webkit-transition: .3s;
     transition: .3s;
     &:hover {
-        color: #aeb0b1;
+        color: #afb1ae;
         text-decoration: none;
     }
 }
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #30373d;
+    color: #323d30;
     font-family: $heading-font;
     font-weight: bold;
     line-height: 1.2;
@@ -79,7 +79,7 @@ address {
 
 mark,
 ins {
-    background-color: #f2f2f2;
+    background-color: #f5ffd6;
     color: inherit;
     padding: 0 3px;
     text-decoration: none;
@@ -92,7 +92,7 @@ code {
 }
 
 pre {
-    background-color: #f2f2f2;
+    background-color: #fffae6;
     font-size: 14px;
     line-height: 1.5;
     margin: 0 0 24px;

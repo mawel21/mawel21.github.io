@@ -31,19 +31,16 @@ sass:
 navigation:
 - text: Home
   url: /
-- text: About
-  url: /about/
-- text: Style Guide
-  url: /style-guide/
-- text: Archives
-  url: /tags/
+- text: Mi Blog
+  url: /mi-blog/
+- text: Json
+  url: /Json/
 
 # Author information - author info at the bottom of the post
-author_name: "John Doe"
-author_bio: "My name is John Doe. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 6 years."
-author_url: "https://justgoodthemes.com"
-author_location: "Vilnius, Lithuania"
-author_image: authorimage.jpg
+author_name: "Miguel Castro"
+author_bio: "Mi nombre es Miguel Castro y estoy haciendo esta web con Jekyll."
+author_location: "Madrid, España"
+
 
 # Footer ad banner
 banner_image: banner.jpg
@@ -53,15 +50,11 @@ banner_url: https://justgoodthemes.com/
 mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
 
 # Social links in the site footer
-twitter_username: "username"
-facebook_username: "username"
-github_username: "username"
-codepen_username: "username"
-dribbble_username: "username"
-medium_username: "@username"
-instagram_username: "username"
-pinterest_username: "username"
-linkedin_username: "username"
+twitter_username: "mawel21"
+github_username: "mawel21"
+instagram_username: "mawel21"
+pinterest_username: "mawel21"
+linkedin_username: "mawel21"
 
 # http://jekyllrb.com/docs/pagination/
 paginate: 5

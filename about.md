@@ -1,24 +1,21 @@
 ---
 layout: page
-title: About this blog
-description: An optional about page for BlogBox Jekyll theme
-featured_image: aboutPage.jpg
+title: Sobre este blog
+description: Informacion sobre la relación rap-NBA
+featured_image: about.jpg
 ---
 
-My name is John Doe. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 5 years.
+En este blog encontrarás articulos y otras cosas relacionadas con el mundo del baloncesto en los Estados Unidos,
+así mismo existirán otros temas relacionados con la música urbana y su relación que existe con el mundo del baloncesto.
 
-Welcome to my blog and I absolutely appreciate you stopping by! On December 25th, 2001, I left the Canada for a four months, trip to Asia. The idea was to backpack around China, Thailand, Vietnam and Cambodia and then return home and start a career in the IT industry.
+> “Ball like I’m Kobe” <cite>― Chief Keef ―</cite>
 
-When I landed in Bangkok, I had $3500 USD to my name and that was it. I booked a bed in a old guesthouse in the center of the city for about a dollar per night and let the adventure begin.
+El baloncesto y la música urbana, especialmente el rap y el trap, han estado entrelazados en la cultura de Estados Unidos durante décadas. La NBA no solo ha sido una inspiración para los raperos, sino que muchos jugadores también han incursionado en la música, fusionando ambos mundos en un estilo de vida compartido.
 
-> “To live is the rarest thing in the world. Most people exist, that is all.” <cite>― Oscar Wilde ―</cite>
+Raperos como J. Cole, Drake y Lil Wayne han hecho referencia a la NBA en sus letras. Por ejemplo, Drake menciona a jugadores en muchas canciones, como en "Sicko Mode", donde dice: “Wet like I'm Book”, haciendo referencia a Devin Booker. Lil Wayne, en "Kobe Bryant", rindió homenaje a la leyenda de los Lakers con versos dedicados a su mentalidad competitiva. JAY-Z también ha hecho múltiples menciones a la NBA, incluso llegando a ser copropietario de los Brooklyn Nets en su momento.
 
-In the end, I never went home after those three months. And it’s now been over 14 years and that trip has still yet to finish.
+> “ Shouts out to Future, keep guap on me ” <cite>― Lonzo Ball ―</cite>
 
-The adventure has involved over 75+ countries on 5 continents as I’ve worked, lived, traveled and volunteered all over the planet.
+Por otro lado, varios jugadores de la NBA han probado suerte en la música. Shaquille O’Neal fue uno de los primeros en lanzar un álbum de rap en los 90, con su disco Shaq Diesel. Damian Lillard, bajo el nombre artístico Dame D.O.L.L.A., ha sido uno de los más exitosos en la escena, colaborando con artistas como Lil Wayne. Incluso Lonzo Ball ha lanzado temas dentro del género trap.
 
-Through my own adventures – from the incredible moments and rewarding interactions to the struggles and major challenges – I aim to provide a realistic and honest account of what long-term travel is truly about and how you can work on achieving such a goal yourself.
-
-While the recognition and mentions this blog has received over the years are certainly nice, nothing compares to an email from a reader telling me that the blog helped them achieve their own travel goals.
-
-*Thank You for reading!*
+La relación entre el baloncesto y la música urbana va más allá de simples referencias en canciones; es un reflejo de la cultura afroamericana y del estilo de vida de la calle, donde la pasión por el deporte y la música se mezclan en un solo ritmo. 🎤🏀
