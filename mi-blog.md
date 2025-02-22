@@ -2,7 +2,7 @@
 layout: page
 title: Sobre este blog
 description: Informacion sobre la relación rap-NBA
-featured_image: about.jpg
+featured_image: mi-blog.jpg
 ---
 
 En este blog encontrarás articulos y otras cosas relacionadas con el mundo del baloncesto en los Estados Unidos,

@@ -1,30 +1,9 @@
 <aside class="footer-widgets">
-
-    {% if site.mailchimp_url %}
-    <div id="footer-fullwidth" class="footer-fullwidth">
-        <section class="widget widget-subscribe">
-            <div class="inner">
-                <h2 class="widget-title">{{ site.title }} Newsletter</h2>
-                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    </form>
-                </div>
-                <!--End mc_embed_signup-->
-            </div><!-- .inner -->
-        </section><!-- .widget -->
-    </div><!-- .footer-fullwidth -->
-    {% endif %}
-
     <div id="footer-columns" class="footer-columns">
         <div class="inner">
             <div class="grid">
 
-                {% if site.author_bio and site.author_name %}
+                {% if site.author_bio and site.author_name %} <!-- Para mostrar informacion del autor reflejada en _config.yml -->
                 <div class="one-third">
                     <section class="widget widget-text">
                         <h2 class="widget-title">About {{ site.author_name }}</h2>
@@ -33,7 +12,7 @@
                 </div><!-- .one-third -->
                 {% endif %}
 
-                <div class="one-third">
+                <div class="one-third"> <!-- Para mostrar los ultimos posts subidos -->
                     <section class="widget widget-recent-posts">
                         <h2 class="widget-title">Latest Posts</h2>
                         <ul class="recent-posts">
@@ -50,8 +29,8 @@
                     </section><!-- .widget-recent-posts -->
                 </div><!-- .one-third -->
 
-                <!-- Create a sorted array of tags -->
-                <div class="one-third">
+               
+                <div class="one-third"> <!-- Para mostrar los tags de los posts subidos -->
                     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
                     {% assign sortedTags = site_tags | split:',' | sort %}
                     <section class="widget widget-tags">
