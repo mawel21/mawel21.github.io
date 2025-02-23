@@ -50,11 +50,11 @@
  */
 
 .site-nav {
-    background-color: #262b2f;
+    background-color: #5d6445;
 }
 
 .fixed-nav .site-nav {
-    border-bottom: 1px solid #30373d;
+    border-bottom: 1px solid #465942;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: fixed;
@@ -83,8 +83,8 @@
         position: relative;
     }
      a {
-        border-left: 2px solid #30373d;
-        color: #aeb0b1;
+        border-left: 2px solid #000000;
+        color: #c7ced1;
         display: block;
         padding: 0 15px;
         text-decoration: none;
@@ -97,7 +97,7 @@
 }
 
 .search-toggle {
-    color: #aeb0b1;
+    color: #9cc59a;
     cursor: pointer;
     font-size: 14px;
     line-height: 2;
@@ -128,7 +128,7 @@
 .site-search {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: #262b2f;
+    background: #313f34;
     height: 100%;
     left: 0;
     -webkit-overflow-scrolling: touch;

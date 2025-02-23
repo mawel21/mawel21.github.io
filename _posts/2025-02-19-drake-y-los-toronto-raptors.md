@@ -10,7 +10,7 @@ Drake ha sido un aficionado declarado de los Toronto Raptors desde hace años, p
 
 <!--more-->
 
-{% include image_full.html imageurl="/images/posts/drake-sidelines.jpg" title="Drake" caption="Drake courtside" %}
+{% include image_full.html imageurl="/images/posts/drake-sidelines.jpg" title="Drake" caption="Drake sentado en su asiento reservado" %}
 
 Durante los partidos, Drake es conocido por su interacción con los jugadores, a veces celebrando de manera efusiva o incluso participando en "beefs" con estrellas rivales. Un ejemplo fue su enfrentamiento verbal con Draymond Green y Klay Thompson durante las Finales de la NBA en 2019, cuando los Raptors vencieron a los Golden State Warriors.
 

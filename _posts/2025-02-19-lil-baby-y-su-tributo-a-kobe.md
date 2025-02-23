@@ -17,7 +17,7 @@ En la canción, Lil Baby menciona la mentalidad de trabajo incansable de Kobe, s
 
 El vínculo entre el hip-hop y la NBA se ha manifestado en numerosas ocasiones a través de homenajes como este. Artistas como Lil Wayne, J. Cole y Drake han hecho referencias a Kobe y otros jugadores en sus canciones, reflejando cómo el legado de las estrellas del baloncesto trasciende el deporte para convertirse en un fenómeno cultural. 
 
-{% include image_full.html imageurl="/images/posts/kobe-tribute.jpg" title="RIP Kobe" caption="LeBron James tras la muerte de su amigo Kobe Bryant" %}
+{% include image_full.html imageurl="/images/posts/tribute-kobe.jpg" title="RIP Kobe" caption="LeBron James tras la muerte de su amigo Kobe Bryant" %}
 
 El fallecimiento de Kobe Bryant el 26 de enero de 2020 marcó un antes y un después en la historia de la NBA. La noticia conmocionó al mundo del deporte y generó una oleada de homenajes por parte de jugadores, entrenadores y fanáticos en todo el planeta. Kobe no solo fue una leyenda del baloncesto, sino un ícono cultural cuyo legado trascendió las canchas.
 

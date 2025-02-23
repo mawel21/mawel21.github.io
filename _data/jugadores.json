@@ -1,0 +1,46 @@
+{
+    "players": [
+      {
+        "name": "Lonzo Ball",
+        "age": 26,
+        "teams": ["Los Angeles Lakers", "New Orleans Pelicans", "Chicago Bulls"],
+        "status": "Activo",
+        "song": "ZO2"
+      },
+      {
+        "name": "Shaquille O'Neal",
+        "age": 51,
+        "teams": ["Orlando Magic", "Los Angeles Lakers", "Miami Heat", "Phoenix Suns", "Cleveland Cavaliers", "Boston Celtics"],
+        "status": "Retirado",
+        "song": "What's Up Doc? (Can We Rock)"
+      },
+      {
+        "name": "Kevin Durant",
+        "age": 35,
+        "teams": ["Seattle SuperSonics", "Oklahoma City Thunder", "Golden State Warriors", "Brooklyn Nets", "Phoenix Suns"],
+        "status": "Activo",
+        "song": "It Ain't Easy"
+      },
+      {
+        "name": "Damian Lillard",
+        "age": 33,
+        "teams": ["Portland Trail Blazers", "Milwaukee Bucks"],
+        "status": "Activo",
+        "song": "Money Ball"
+      },
+      {
+        "name": "Aaron Gordon",
+        "age": 28,
+        "teams": ["Orlando Magic", "Denver Nuggets"],
+        "status": "Activo",
+        "song": "Pull Up"
+      },
+      {
+        "name": "Miles Bridges",
+        "age": 26,
+        "teams": ["Charlotte Hornets"],
+        "status": "Activo",
+        "song": "Steph McGrady"
+      }
+    ]
+  }
