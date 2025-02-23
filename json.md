@@ -9,7 +9,7 @@ featured_image: json.jpg
 <ul>
 {% for jugador in site.data.jugadores.players %}
     {% if jugador.age < 30 %}
-        <li><strong>{{ jugador.name | upcase }}</strong> - {{ jugador.song }}</li>
+        <li><b>{{ jugador.name | upcase }}</b> - {{ jugador.song }}</li>
     {% endif %}
 {% endfor %}
 </ul>
@@ -18,7 +18,7 @@ featured_image: json.jpg
 <ul>
 {% for rapero in site.data.raperos.rappers %}
     {% if rapero.age > 30 %}
-        <li><strong>{{ rapero.real_name }}</strong> ({{ rapero.artist_name }}) - {{ rapero.nba_song }}</li>
+        <li><b>{{ rapero.real_name }}</b> ({{ rapero.artist_name }}) - {{ rapero.nba_song }}</li>
     {% endif %}
 {% endfor %}
 </ul>
@@ -27,8 +27,8 @@ featured_image: json.jpg
 <ul>
 {% for rapero in site.data.raperos.rappers %}
     <li>
-        <strong>{{ rapero.artist_name }}</strong> - "{{ rapero.nba_song }}"  
-        <br><em>Información:</em> {{ rapero.information }}
+        <b>{{ rapero.artist_name }}</b> - "{{ rapero.nba_song }}"  
+        <br>Información: {{ rapero.information }}
     </li>
 {% endfor %}
 </ul>
