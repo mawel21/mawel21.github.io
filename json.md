@@ -6,13 +6,13 @@ featured_image: json.jpg
 ---
 
 {% for jugador in site.data.jugadores %} 
-    {% if jugadores.age < 30 %}
-        {{ jugadores.name | upcase }} {{ jugadores.song }}
+    {% if jugador.age < 30 %}
+        {{ jugador.name | upcase }} {{ jugador.song }}
     {% endif %}
 {% endfor %}
 
 {% for rapero in site.data.raperos %} 
-    {% if raperos.age > 30 %}
-        {{ raperos.real_name}} {{ raperos.nba_song }} {{ raperos.artist_name }}
+    {% if rapero.age > 30 %}
+        {{ rapero.real_name }} {{ rapero.nba_song }} {{ rapero.artist_name }}
     {% endif %}
 {% endfor %}
