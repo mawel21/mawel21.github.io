@@ -5,43 +5,48 @@
         "artist_name": "Drake",
         "age": 37,
         "most_streamed_album": "Scorpion",
-        "nba_song": "Sicko Mode (menciona a Steph Curry)"
+        "nba_song": "Sicko Mode (menciona a Steph Curry)",
+        "information": "Menciona a Devin Booker"
       },
       {
         "real_name": "Ye (Kanye Omari West)",
         "artist_name": "Kanye West",
         "age": 46,
         "most_streamed_album": "My Beautiful Dark Twisted Fantasy",
-        "nba_song": "Facts (hace referencia a Michael Jordan y LeBron James)"
+        "nba_song": "Facts",
+        "information": "hace referencia a Michael Jordan y LeBron James" 
       },
       {
         "real_name": "Symere Bysil Woods",
         "artist_name": "Lil Uzi Vert",
         "age": 29,
         "most_streamed_album": "Eternal Atake",
-        "nba_song": "Shaq & Kobe (menciona a la ilustre pareja)"
+        "nba_song": "Shaq & Kobe",
+        "information": "La cancion habla sobre la pareja de jugadores de los Lakers" 
       },
       {
         "real_name": "Shawn Corey Carter",
         "artist_name": "Jay-Z",
         "age": 54,
         "most_streamed_album": "The Blueprint",
-        "nba_song": "Empire State of Mind (menciona a los New York Knicks)"
+        "nba_song": "Empire State of Mind",
+        "information": "Menciona a los Ney York Knicks" 
       },
       {
         "real_name": "Bashar Barakah Jackson",
         "artist_name": "Pop Smoke",
         "age": 20,
         "most_streamed_album": "Shoot for the Stars, Aim for the Moon",
-        "nba_song": "Christopher Walking (referencia a James Harden)"
+        "nba_song": "Christopher Walking (referencia a James Harden)",
+        "information": "Referencia a James Harden" 
       },
       {
         "real_name": "Jackman Thomas Harlow",
         "artist_name": "Jack Harlow",
         "age": 26,
         "most_streamed_album": "Come Home the Kids Miss You",
-        "nba_song": "Tyler Herro (la canción habla sobre el jugador)"
+        "nba_song": "Tyler Herro",
+        "information": "La cancion habla sobre el jugador de los Miami Heat" 
       }
     ]
 }
-  

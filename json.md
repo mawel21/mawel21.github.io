@@ -5,14 +5,31 @@ description: Json con jugadores y raperos
 featured_image: json.jpg
 ---
 
-{% for jugador in site.data.jugadores.players %} 
+<h3>Jugadores menores de 30 años</h3>
+<ul>
+{% for jugador in site.data.jugadores.players %}
     {% if jugador.age < 30 %}
-        <p>{{ jugador.name | upcase }} {{ jugador.song }}</p>
+        <li><strong>{{ jugador.name | upcase }}</strong> - {{ jugador.song }}</li>
     {% endif %}
 {% endfor %}
+</ul>
 
-{% for rapero in site.data.raperos.rappers %} 
+<h3>Raperos mayores de 30 años</h3>
+<ul>
+{% for rapero in site.data.raperos.rappers %}
     {% if rapero.age > 30 %}
-        <p>{{ rapero.real_name }} {{ rapero.nba_song }} {{ rapero.artist_name }}</p>
+        <li><strong>{{ rapero.real_name }}</strong> ({{ rapero.artist_name }}) - {{ rapero.nba_song }}</li>
     {% endif %}
 {% endfor %}
+</ul>
+
+<h3>Raperos y sus referencias a la NBA</h3>
+<ul>
+{% for rapero in site.data.raperos.rappers %}
+    <li>
+        <strong>{{ rapero.artist_name }}</strong> - "{{ rapero.nba_song }}"  
+        <br><em>Información:</em> {{ rapero.information }}
+    </li>
+{% endfor %}
+</ul>
+
