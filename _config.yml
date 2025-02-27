@@ -37,8 +37,12 @@ navigation:
   url: /json/
 - text: Examen
   url: /examen
-
-
+- text: Alumnos
+  url: /examen/alumnos.html
+- text: Index
+  url: /examen/index.html
+- text: notas
+  url: /examen/notas.html
 # Author information - author info at the bottom of the post
 author_name: "Miguel Castro"
 author_bio: "Mi nombre es Miguel Castro y estoy haciendo esta web con Jekyll."
