@@ -1,0 +1,28 @@
+{
+    "alumnos": [
+      {
+        "nombre": "Lucho",
+        "apellido": "Padre"
+      },
+      {
+        "nombre": "Santiago",
+        "apellido": "González"
+      },
+      {
+        "nombre": "Miguel",
+        "apellido": "Castro"
+      },
+      {
+        "nombre": "Pablo",
+        "apellido": "Arriola"
+      },
+      {
+        "nombre": "Yehan",
+        "apellido": "Xue"
+      },
+      {
+        "nombre": "David",
+        "apellido": "Saugar"
+      }
+    ]
+}

@@ -1,0 +1,10 @@
+---
+layout: paginas_examen
+title:  "alumnos"
+---
+<h3>Alumnos</h3>
+<ul>
+{% for jugador in site.data.alumnos.alumnos %}
+    <li><b>{{ alumnos.nombre | upcase }}</b> - {{ alumnos.apellido }}</li>
+{% endfor %}
+</ul>

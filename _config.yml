@@ -35,6 +35,9 @@ navigation:
   url: /mi-blog/
 - text: json
   url: /json/
+- text: Examen
+  url: /examen
+
 
 # Author information - author info at the bottom of the post
 author_name: "Miguel Castro"
